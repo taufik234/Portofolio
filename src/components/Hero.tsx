@@ -27,7 +27,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-20 container mx-auto px-4 text-center animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Hi, I'm <span className="gradient-text">Your Name</span>
+          Hi, I'm <span className="gradient-text">Taufik Suryo Abintoro</span>
         </h1>
         <p className="text-2xl md:text-3xl mb-4 text-muted-foreground">Full-Stack Developer</p>
         <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">Building modern and efficient web applications with passion for creating clean, user-focused solutions</p>
