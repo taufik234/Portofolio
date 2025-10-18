@@ -20,7 +20,7 @@ const Projects = () => {
       image: ecommerceImg,
       technologies: ["Node.js", "Express", "MongoDB"],
       githubUrl: "#",
-      liveUrl: "#",
+      //   liveUrl: "#",
     },
     {
       title: "Real-Time Chat App",
@@ -28,7 +28,7 @@ const Projects = () => {
       image: chatImg,
       technologies: ["React", "Socket.io", "Node.js"],
       githubUrl: "#",
-      liveUrl: "#",
+      //   liveUrl: "#",
     },
     {
       title: "IoT Dashboard",
@@ -36,7 +36,7 @@ const Projects = () => {
       image: iotImg,
       technologies: ["Next.js", "Chart.js", "WebSocket"],
       githubUrl: "#",
-      liveUrl: "#",
+      //   liveUrl: "#",
     },
   ];
 
