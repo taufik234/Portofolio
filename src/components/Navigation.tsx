@@ -31,11 +31,11 @@ const Navigation = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "glass-card shadow-lg" : "bg-transparent"}`}>
-      <div className="container m-auto px 4">
+      <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* {logo} */}
+          {/* Logo */}
           <a
-            href="home"
+            href="#home"
             onClick={(e) => {
               e.preventDefault();
               scrollToSection("#home");
@@ -45,8 +45,8 @@ const Navigation = () => {
             Portfolio
           </a>
 
-          {/* {Desktop Menu} */}
-          <div className="hiden md:flex items-center gap-8">
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center gap-8">
             {navItems.map((item, index) => (
               <a
                 key={index}
@@ -60,31 +60,32 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            {/* {Mobile Menu Button} */}
-            <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-              {isMobileMenuOpen ? <X /> : <Menu />}
-            </Button>
           </div>
 
-          {/* {Mobile Menu} */}
-          {isMobileMenuOpen && (
-            <div className="md:hidden py-4 space y-4 glass-card rounded-lg mt-2">
-              {navItems.map((item, index) => (
-                <a
-                  href={item.href}
-                  key={index}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(item.href);
-                  }}
-                  className="block px-4 py-2 text-muted-foreground hover:text-primary transition-colors duration-300 font-medium"
-                >
-                  {item.label}
-                </a>
-              ))}
-            </div>
-          )}
+          {/* Mobile Menu Button */}
+          <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+            {isMobileMenuOpen ? <X /> : <Menu />}
+          </Button>
         </div>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden py-4 space-y-4 glass-card rounded-lg mt-2">
+            {navItems.map((item, index) => (
+              <a
+                key={index}
+                href={item.href}
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection(item.href);
+                }}
+                className="block px-4 py-2 text-muted-foreground hover:text-primary transition-colors duration-300 font-medium"
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </nav>
   );
