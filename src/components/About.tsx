@@ -29,19 +29,19 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident illo laboriosam deserunt ipsam, laudantium libero in incidunt repellat dolores reprehenderit modi aperiam nobis. Ea eius dolore eligendi repellendus
-              aspernatur!
+              I’m a passionate <span className="text-primary font-semibold">Fresh Graduate Web Developer</span> who loves creating interactive and responsive websites. I enjoy turning ideas into real digital experiences through clean design
+              and modern technologies.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               My expertise includes{" "}
               <span className="text-primary font-semibold">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse culpa natus dolores animi vero iusto, quo magnam autem quis nesciunt placeat magni harum omnis aliquam numquam modi rerum provident sunt!
+                My expertise includes <span className="text-primary font-semibold">HTML, CSS, JavaScript, React, Node.js, and Tailwind CSS</span>. I have hands-on experience building full-stack web applications and continuously explore new
+                frameworks to stay updated in the fast-paced tech industry.
               </span>
               . I love transforming ideas into functional, beautiful web applications.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat, officia doloribus harum consectetur, provident vel dolor animi nulla corporis voluptatum beatae. Accusamus accusantium inventore eveniet in qui
-              laudantium aliquid.
+              I’m eager to collaborate, learn from professionals, and contribute to projects that make a meaningful impact. My goal is to keep improving as a developer and bring creative ideas to life through code.
             </p>
           </div>
 

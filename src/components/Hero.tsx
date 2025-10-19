@@ -29,8 +29,10 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
           Hi, I'm <span className="gradient-text">Taufik Suryo Abintoro</span>
         </h1>
-        <p className="text-2xl md:text-3xl mb-4 text-muted-foreground">Lorem.</p>
-        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero molestiae nam unde quisquam iste nulla ducimus necessitatibus adipisci placeat incidunt obcaecati consectetur, dicta culpa, sequi asperiores dolorem molestias. Alias, dolores?</p>
+        <p className="text-2xl md:text-3xl mb-4 text-muted-foreground">Fresh Graduate | Web Developer | Tech Enthusiast</p>
+        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">
+          I recently graduated in Computer Science and specialize in building responsive web applications using modern technologies. I’m eager to learn, grow, and contribute to impactful digital projects.
+        </p>
         <Button onClick={scrollToProjects} size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg shadow-lg hover:shadow-primary/50 transition-all duration-300 hover:scale-105">
           View My Work
           <ArrowDown className="ml-2 h-5 w-5" />

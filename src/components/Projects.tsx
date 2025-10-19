@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import portfolioImg from "@/assets/project-portfolio.jpg";
 import ecommerceImg from "@/assets/project-ecommerce.jpg";
-import chatImg from "@/assets/project-chat.jpg";
+import vestion from "@/assets/v.png";
 import iotImg from "@/assets/project-iot.jpg";
 
 const Projects = () => {
@@ -11,23 +11,25 @@ const Projects = () => {
       description: "A modern, responsive personal portfolio built with React and Tailwind CSS. Features smooth animations, dark theme, and optimized performance.",
       image: portfolioImg,
       technologies: ["React", "Tailwind CSS", "TypeScript"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/taufik234/Portofolio",
       liveUrl: "#",
     },
     {
-      title: "E-Commerce REST API",
-      description: "Robust RESTful API for e-commerce platform using Node.js, Express, and MongoDB. Implements authentication, product management, and order processing.",
+      title: "Note REST API",
+      description:
+        "adalah sebuah backend API sederhana yang ditulis menggunakan bahasa pemrograman Go (Golang). API ini berfungsi untuk mendukung aplikasi pencatatan (notes) — memungkinkan Anda membuat, membaca, memperbarui, dan menghapus (CRUD) catatan. ",
       image: ecommerceImg,
-      technologies: ["Node.js", "Express", "MongoDB"],
-      githubUrl: "#",
+      technologies: ["Golang", "MongoDB"],
+      githubUrl: "https://github.com/taufik234/GoNotes-API",
       //   liveUrl: "#",
     },
     {
-      title: "Real-Time Chat App",
-      description: "Feature-rich chat application with real-time messaging using Socket.io. Supports multiple rooms, user authentication, and message history.",
-      image: chatImg,
-      technologies: ["React", "Socket.io", "Node.js"],
-      githubUrl: "#",
+      title: "Vegetable Information and Nutrition Bangkit 2024 Batch 1 Capstone Team: C241-PS002",
+      description:
+        "Vetion is an application designed to help retailers and houseconsumers detect the quality of vegetables and provide accurate nutritional information. The app aims to enhance users' awareness and understanding of the quality and nutritional content of the vegetables they consume. With Vetion, users can easily select high-quality vegetables and ensure they receive the maximum nutritional benefits from their choices.",
+      image: vestion,
+      technologies: ["Python", "Kotlin", "TensorFlow, Java Script "],
+      githubUrl: "https://github.com/VetionTeam",
       //   liveUrl: "#",
     },
     {
